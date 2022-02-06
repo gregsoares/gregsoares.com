@@ -1,5 +1,8 @@
 .carddeckContainer {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'cardContainer cardContainer cardContainer';
+  grid-gap: 1rem 0.4rem;
   margin: 0;
 }
