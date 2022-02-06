@@ -1,0 +1,15 @@
+.headerContainer {
+  background: #7895c2;
+  display: flex;
+  font-size: 2rem;
+  grid-template-columns: 2fr 6fr 2fr;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 0;
+  padding: 1rem 1;
+  width: 100%;
+}
+.links {
+  margin: 1rem 2rem;
+  justify-content: center;
+}

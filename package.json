@@ -1,7 +1,7 @@
 {
-  "name": "reacttemplate",
+  "name": "gregsoares.com",
   "version": "1.0.0",
-  "description": "clean reactjs, webpack and babel template",
+  "description": "Main gregsoares.com project code",
   "main": "index.js",
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",

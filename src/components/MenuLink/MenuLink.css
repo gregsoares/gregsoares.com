@@ -1,0 +1,15 @@
+.menuLink {
+  font-size: 1.2rem;
+  margin: 0.3rem 0.7rem;
+  color: #333;
+  text-shadow: 0.1rem 1px 1px rgba(240, 200, 200, 0.2);
+  text-decoration: none;
+}
+
+:any-link:active {
+  text-decoration: underline;
+}
+
+:any-link:visited {
+  color: #191f28;
+}

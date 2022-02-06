@@ -1,0 +1,11 @@
+.heroContainer {
+  min-height: 30vh;
+  background: #2c4770;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+.leftHeroSection {
+  border-top: 1px solid #fff;
+}

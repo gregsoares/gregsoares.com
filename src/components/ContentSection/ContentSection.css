@@ -1,0 +1,13 @@
+.contentSectionContainer {
+  min-height: 30vh;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.primaryColor {
+  background: #071428;
+}
+
+.secondaryColor {
+  background: #191f28;
+}
