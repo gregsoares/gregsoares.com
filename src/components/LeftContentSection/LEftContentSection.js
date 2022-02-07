@@ -1,7 +1,7 @@
 import React from 'react'
-import './ContentSection.css'
+import './LeftContentSection.css'
 
-const ContentSection = ({ children, variant = 'b' }) =>
+const LeftContentSection = ({ children, variant = 'b' }) =>
   variant.lowercase === 'a' ? (
     <section className='contentSectionContainer primaryColor '>
       {children}
@@ -12,4 +12,4 @@ const ContentSection = ({ children, variant = 'b' }) =>
     </section>
   )
 
-export default ContentSection
+export default LeftContentSection

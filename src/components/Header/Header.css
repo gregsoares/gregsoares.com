@@ -1,5 +1,7 @@
 .headerContainer {
-  background: #7895c2;
+  color: #eee;
+  background: transparent;
+  position: fixed;
   display: flex;
   font-size: 2rem;
   grid-template-columns: 2fr 6fr 2fr;
@@ -8,8 +10,10 @@
   margin: 0;
   padding: 1rem 1;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .links {
+  color: #eee;
   margin: 1rem 2rem;
   justify-content: center;
 }
