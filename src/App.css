@@ -1,23 +1,16 @@
-.color-primary-0 {
+/* 
   color: #2c4770;
-} /* Main Primary color */
-.color-primary-1 {
   color: #191f28;
-}
-.color-primary-2 {
   color: #071428;
-}
-.color-primary-3 {
   color: #7895c2;
-}
-.color-primary-4 {
-  color: #1e5ec2;
-}
+  color: #1e5ec2; 
+  */
 
 * {
   margin: 0;
   padding: 0;
 }
+
 .main {
   position: relative;
   font-family: 'Montserrat';

@@ -1,9 +1,11 @@
 .carddeckContainer {
   display: grid;
+  background-color: #071428;
   grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 1fr;
   grid-template-areas: 'cardContainer cardContainer cardContainer';
   grid-gap: 1rem 0.4rem;
   justify-items: center;
   margin: 0;
+  padding: 2rem 0.5rem;
 }

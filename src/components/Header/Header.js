@@ -5,11 +5,13 @@ import './Header.css'
 
 const Header = () => (
   <header className='headerContainer'>
-    <Logo />
-    <article className='links'>
-      <MenuLink text='Home' link={'/'} />
-      <MenuLink text='About Me' link={'/aboutme'} />
-    </article>
+    <nav>
+      <Logo />
+      <article className='links'>
+        <MenuLink text='Home' link={'/'} />
+        <MenuLink text='About Me' link={'/aboutme'} />
+      </article>
+    </nav>
   </header>
 )
 

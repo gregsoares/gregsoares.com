@@ -1,6 +1,7 @@
 .heroContainer {
   min-height: 30vh;
   background-image: url('../../assets/imgs/woodenWebDesign.jpg');
+  background-size: cover;
   margin: 0;
   display: grid;
   grid-template-columns: 2fr 4fr;

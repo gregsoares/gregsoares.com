@@ -12,10 +12,10 @@ const Home = () => {
     <main className='homePage'>
       <Header />
       <Hero />
-      <LeftContentSection variant='a'>
+      <CardDeck />
+      <RightContentSection>
         <CardDeck />
-      </LeftContentSection>
-      <RightContentSection></RightContentSection>
+      </RightContentSection>
     </main>
   )
 }
