@@ -1,14 +1,13 @@
-import React from 'react'
-import CardDeck from '../../components/CardDeck'
-import LeftContentSection from '../../components/LeftContentSection'
-import RightContentSection from '../../components/RightContentSection'
-import TopHeader from '../../components/TopHeader'
-import Header from '../../components/Header'
-import Hero from '../../components/Hero'
+import React from 'react';
+import CardDeck from '../../components/CardDeck';
+import RightContentSection from '../../components/RightContentSection';
+import TopHeader from '../../components/TopHeader';
+import Header from '../../components/Header';
+import Hero from '../../components/Hero';
 
-import './Home.css'
-import Card from '../../components/Card'
-import Title from '../../components/Title'
+import './Home.css';
+import Card from '../../components/Card';
+import Title from '../../components/Title';
 
 const Home = () => {
   return (
@@ -26,6 +25,10 @@ const Home = () => {
               viewBox='-8 0 80.01 80.01'
               xmlns='http://www.w3.org/2000/svg'
             >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              ex pariatur amet? Sequi iste officia suscipit architecto est
+              consectetur et eveniet quaerat, quod nostrum dolores iure
+              reiciendis consequatur maiores quasi.
               <path
                 id='Woolworth_Building'
                 data-name='Woolworth Building'
@@ -50,7 +53,7 @@ const Home = () => {
         </p>
       </RightContentSection>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
