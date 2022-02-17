@@ -1,11 +1,11 @@
-import React from 'react'
-import Card from '../Card'
-import './CardDeck.css'
+import React from 'react';
+import Card from '../Card';
+import './CardDeck.css';
 
-const CardDeck = () => {
+const CardDeck = ({ children }) => {
   return (
     <section className='carddeckContainer'>
-      <Card
+      {/* <Card
         icon={
           <svg
             width='80.01px'
@@ -70,9 +70,10 @@ const CardDeck = () => {
         text='
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio maxime facere perferendis temporibus, incidunt praesentium hic ea ex autem?
         '
-      />
+      /> */}
+      {children}
     </section>
-  )
-}
+  );
+};
 
-export default CardDeck
+export default CardDeck;
