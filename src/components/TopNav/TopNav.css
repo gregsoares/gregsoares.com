@@ -1,0 +1,16 @@
+.TopNavContainer {
+  display: flex;
+  justify-content: space-between;
+  background: #ccc;
+  padding: 1.2rem 0;
+  max-width: 100vw;
+}
+
+.navLinkList {
+  display: flex;
+}
+.navLink {
+  padding: 0.4rem;
+  border: 1px solid #555;
+  border-radius: 0.7rem;
+}

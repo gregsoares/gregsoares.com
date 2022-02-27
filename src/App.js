@@ -6,10 +6,12 @@ import Contact from './Pages/Contact'
 import AboutMe from './Pages/AboutMe'
 import Test from './Pages/Test'
 import './App.css'
+import TopNav from './components/TopNav/TopNav'
 
 const App = () => {
   return (
     <main className='main'>
+      <TopNav />
       <Router>
         <Routes>
           <Route exact path='/' element={<Home />} />
