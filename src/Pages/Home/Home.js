@@ -1,22 +1,9 @@
-import React from 'react';
-import CardDeck from '../../components/CardDeck';
-import RightContentSection from '../../components/RightContentSection';
-import TopHeader from '../../components/TopHeader';
-import Header from '../../components/Header';
-import Hero from '../../components/Hero';
+import React from 'react'
 
-import './Home.css';
-import Card from '../../components/Card';
-import Title from '../../components/Title';
+import './Home.css'
 
 const Home = () => {
-  return (
-    <main className='homePage'>
-      <Header />
-      <Hero />
-      <CardDeck />
-    </main>
-  );
-};
+  return <main className='homePage'>Home Page</main>
+}
 
-export default Home;
+export default Home

@@ -1,19 +1,5 @@
-import React from 'react';
-import CardDeck from '../../components/CardDeck';
-import Hero from '../../components/Hero';
-import LargeCard from '../../components/LargeCard';
-import PreviewCard from '../../components/PreviewCard';
-import TopHeader from '../../components/TopHeader';
+import React from 'react'
 
-const Test = () => (
-  <section className='pageGrid'>
-    <TopHeader />
-    <Hero />
-    <LargeCard />
-    <CardDeck>
-      <PreviewCard />
-    </CardDeck>
-  </section>
-);
+const Test = () => <section className='pageGrid'>TEST PAGE</section>
 
-export default Test;
+export default Test
