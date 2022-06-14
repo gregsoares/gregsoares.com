@@ -1,28 +1,41 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Pages/Home'
-import Projects from './Pages/Projects'
-import Contact from './Pages/Contact'
-import AboutMe from './Pages/AboutMe'
-import Test from './Pages/Test'
-import './App.css'
-import TopNav from './components/TopNav/TopNav'
+import { useState } from "react";
+import AddItem from "./components/Molecules/AddItem";
+import ItemList from "./components/organisms/ItemList";
 
 const App = () => {
-  return (
-    <main className='main'>
-      <TopNav />
-      <Router>
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path='/projects' element={<Projects />} />
-          <Route exact path='/contact' element={<Contact />} />
-          <Route exact path='/aboutme' element={<AboutMe />} />
-          <Route exact path='/test' element={<Test />} />
-        </Routes>
-      </Router>
-    </main>
-  )
-}
+  const [items, setItems] = useState([]);
+  const [input, setInput] = useState("");
 
-export default App
+  const handleAddItem = (item, e) => {
+    e.preventDefault();
+    setItems([...items, { id: Math.floor(Math.random() * 1029), ...item }]);
+  };
+
+  const handleItemClick = (id) =>
+    setItems(
+      items.map((item) =>
+        item.id === id ? { ...item, isActive: !item.isActive } : item
+      )
+    );
+
+  const handleRemoveItem = (id) => {
+    setItems(items.filter((item) => item.id !== id));
+  };
+
+  return (
+    <section className="bg-gray-100 py-4 px-1">
+      <AddItem
+        inputText={input}
+        setInput={setInput}
+        handleAddItem={handleAddItem}
+      />
+      <ItemList
+        handleRemoveItem={handleRemoveItem}
+        items={items}
+        onClick={handleItemClick}
+      />
+    </section>
+  );
+};
+
+export default App;
