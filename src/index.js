@@ -1,13 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./assets/styles/tailwind.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Components from "./Pages/Components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/components" element={<Components />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AddItem from "./components/Molecules/AddItem";
-import ItemList from "./components/organisms/ItemList";
+import ItemList from "./components/Organisms/ItemList";
 
 const App = () => {
   const [items, setItems] = useState([]);
