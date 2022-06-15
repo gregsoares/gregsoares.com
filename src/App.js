@@ -1,48 +1,19 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import AddItem from "./components/Molecules/AddItem";
-import ItemList from "./components/Organisms/ItemList";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TopNav from "./Components/Molecules/TopNav";
+import Components from "./Pages/Components";
+import Home from "./Pages/Home/Home";
+import ToDo from "./Pages/ToDo/ToDo";
 
-const App = () => {
-  const [items, setItems] = useState([]);
-  const [input, setInput] = useState("");
-
-  const handleAddItem = (item, e) => {
-    e.preventDefault();
-    setItems([...items, { id: Math.floor(Math.random() * 1029), ...item }]);
-  };
-
-  const handleItemClick = (id) =>
-    setItems(
-      items.map((item) =>
-        item.id === id ? { ...item, isActive: !item.isActive } : item
-      )
-    );
-
-  const handleRemoveItem = (id) => {
-    setItems(items.filter((item) => item.id !== id));
-  };
-
-  return (
-    <section className="bg-gray-100 py-4 px-1">
-      <section className="mb-6 my-0 mx-4 text-center">
-        <p className="mx-auto py-2 border border-slate-300 max-w-xs">
-          {" "}
-          <Link to="/components">Components</Link>
-        </p>
-      </section>
-      <AddItem
-        inputText={input}
-        setInput={setInput}
-        handleAddItem={handleAddItem}
-      />
-      <ItemList
-        handleRemoveItem={handleRemoveItem}
-        items={items}
-        onClick={handleItemClick}
-      />
-    </section>
-  );
-};
+const App = () => (
+  <Router>
+    <TopNav />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/Home" element={<Home />} />
+      <Route exact path="/todo" element={<ToDo />} />
+      <Route exact path="/components" element={<Components />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
