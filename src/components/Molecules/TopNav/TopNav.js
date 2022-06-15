@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const TopNav = () => {
   return (
-    <div className="flex flex-wrap py-2 bg-slate-500">
+    <div className="text-white top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
       <div className="w-full px-4">
         <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg rounded">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
