@@ -2,19 +2,24 @@ import { useState } from "react";
 import TextInput from "../../Atoms/TextInput/TextInput";
 import Title from "../../Atoms/Title";
 
-const AddItem = ({ setItems, inputText, setInput, handleAddItem }) => {
+const AddItem = ({ handleAddItem }) => {
   const [item, setItem] = useState({
     title: "",
     category: "",
     isActive: true,
   });
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleAddItem(item, e);
+    setItem({ ...item, title: "" });
+  };
   return (
     <div className="add-item px-auto mx-1 flex justify-center items-center ">
-      <div className="add-item__container px-4 py-4 rounded-xl shadow-lg">
+      <div className="add-item__container px-4 py-4 rounded-xl shadow-lg bg-slate-300 ">
         <Title text="Item" />
         <form
-          onSubmit={(e) => handleAddItem(item, e)}
+          onSubmit={(e) => handleSubmit(e, item, setItem)}
           onReset={() =>
             setItem({
               title: "",

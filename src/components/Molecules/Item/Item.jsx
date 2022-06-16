@@ -6,7 +6,7 @@ const Item = ({ item, onClick, handleRemoveItem }) => {
   const { id, title, category, isActive } = item;
   return (
     <li className="flex" key={id}>
-      <div className="px-8 max-w-sm mx-auto border border-gray-300 m-2 rounded-xl shadow-lg py-4 flex items-center space-y-0 space-x-6">
+      <div className="px-8 max-w-sm mx-auto border border-gray-300 m-2 rounded-xl shadow-lg py-4 flex items-center space-y-0 space-x-6 bg-slate-300 ">
         <input
           type="checkbox"
           name="nameOfChoice"

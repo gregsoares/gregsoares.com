@@ -2,7 +2,7 @@ import Item from "../../Molecules/Item/Item";
 
 const ItemList = ({ items, onClick, handleRemoveItem }) => {
   return (
-    <ul className="list-reset">
+    <ul className="list-reset ">
       {items.map((item) => (
         <Item
           key={item.id}
