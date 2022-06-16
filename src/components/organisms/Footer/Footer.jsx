@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "../../Atoms/Link/Link";
 
 const Footer = () => {
   return (
@@ -59,46 +59,33 @@ const Footer = () => {
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <div className="w-full lg:w-4/12 px-4 mx-auto">
                   <span className="block uppercase text-gray-500 text-sm font-semibold mb-2">
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=nr-footer"
-                      >
-                        About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=nr-footer"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nr-footer"
-                      >
-                        Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer"
-                      >
-                        Free Products
-                      </a>
-                    </li>
+                    {/* Link */}
+                    <Link to="/" text="Home" />
+
+                    <Link
+                      href="https://www.linkedin.com/in/greg-soares/"
+                      text="LinkedIn"
+                      targetBlank
+                    />
+
+                    <Link
+                      href="https://github.com/gregsoares"
+                      text="Github"
+                      targetBlank
+                    />
+                    <Link
+                      href="https://github.com/gregsoares/gregsoares.com"
+                      text="GregSoares.com Repo"
+                      targetBlank
+                    />
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
+                {/* <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-gray-500 text-sm font-semibold mb-2">
                     Other Resources
                   </span>
@@ -136,7 +123,7 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

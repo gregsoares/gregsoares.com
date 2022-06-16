@@ -3,6 +3,7 @@ import TopNav from "./Components/Molecules/TopNav";
 import Components from "./Pages/Components";
 import Home from "./Pages/Home/Home";
 import ToDo from "./Pages/ToDo/ToDo";
+import Footer from "./Components/Organisms/Footer/Footer";
 
 const App = () => (
   <Router>
@@ -13,6 +14,7 @@ const App = () => (
       <Route exact path="/todo" element={<ToDo />} />
       <Route exact path="/components" element={<Components />} />
     </Routes>
+    <Footer />
   </Router>
 );
 

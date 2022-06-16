@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+    <div className="relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75">
       <div
         className="absolute top-0 w-full h-full bg-center bg-cover"
         style={{
