@@ -8,7 +8,7 @@ import ContactForm from "../../components/Molecules/ContactForm";
 const Home = () => {
   return (
     <>
-      <main>V
+      <main>
         <Intro />
         <CardSection />
         <BottomCardDisplay />
