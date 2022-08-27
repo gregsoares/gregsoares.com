@@ -1,14 +1,14 @@
-import Heroes from "../../Components/Heroes";
-import CardSection from "../../Components/Molecules/TopCardDisplay";
-import Intro from "../../Components/Molecules/Intro";
-import BottomCardDisplay from "../../Components/Molecules/BottomCardDisplay";
-import TrippleIconIntro from "../../Components/Molecules/TrippleIconIntro/TrippleIconIntro";
-import ContactForm from "../../Components/Molecules/ContactForm";
+import Heroes from "../../components/Heroes";
+import CardSection from "../../components/Molecules/TopCardDisplay";
+import Intro from "../../components/Molecules/Intro";
+import BottomCardDisplay from "../../components/Molecules/BottomCardDisplay";
+import TrippleIconIntro from "../../components/Molecules/TrippleIconIntro/TrippleIconIntro";
+import ContactForm from "../../components/Molecules/ContactForm";
 
 const Home = () => {
   return (
     <>
-      <main>
+      <main>V
         <Intro />
         <CardSection />
         <BottomCardDisplay />

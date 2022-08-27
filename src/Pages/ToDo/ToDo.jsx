@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import AddItem from "../../Components/Molecules/AddItem";
-import ItemList from "../../Components/Organisms/ItemList";
+import AddItem from "../../components/Molecules/AddItem";
+import ItemList from "../../components/organisms/ItemList";
 
 const ToDo = () => {
   const [items, setItems] = useState([]);

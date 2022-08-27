@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TopNav from "./Components/Molecules/TopNav";
+import TopNav from "./components/Molecules/TopNav";
 import Components from "./Pages/Components";
 import Home from "./Pages/Home/Home";
 import ToDo from "./Pages/ToDo/ToDo";
-import Footer from "./Components/Organisms/Footer/Footer";
+import Footer from "./components/organisms/Footer/Footer";
 
 const App = () => (
   <Router>
@@ -12,7 +12,7 @@ const App = () => (
       <Route exact path="/" element={<Home />} />
       <Route exact path="/Home" element={<Home />} />
       <Route exact path="/todo" element={<ToDo />} />
-      <Route exact path="/components" element={<Components />} />
+      <Route exact path="/Components" element={<Components />} />
     </Routes>
     <Footer />
   </Router>

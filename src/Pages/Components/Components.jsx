@@ -1,4 +1,4 @@
-import ItemList from "../../Components/Organisms/ItemList";
+import ItemList from "../../components/organisms/ItemList";
 
 const Components = () => (
   <section className="min-h-screen bg-slate-400 p-4">
