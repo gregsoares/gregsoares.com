@@ -1,13 +1,21 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import NavMenu from './NavMenu'
 
 const TopNav = () => {
+  const windowWidth = window.innerWidth > 1023 ? 'desktop' : 'mobile'
   const location = useLocation().pathname
   const [isOpen, setIsOpen] = useState(false)
+  const displayNavLinks = () => {
+    if (windowWidth === 'mobile' && isOpen) {
+      return true
+    } else if (windowWidth === 'desktop') {
+      return true
+    }
+    return false
+  }
   console.log('isOpen', isOpen)
-  useEffect(() => {
-    setIsOpen(false)
-  }, [location])
+
   return (
     <div
       className='text-white top-0 absolute z-50 w-full flex flex-wrap items-center px-2 py-3 navbar-expand-lg'
@@ -36,39 +44,7 @@ const TopNav = () => {
                     <span className='block relative w-6 h-px rounded-sm bg-white mt-1'></span>
                   </button>
                 </div>
-                {isOpen && (
-                  <div
-                    className='flex lg:flex-grow items-center'
-                    id='example-navbar-info'
-                  >
-                    <ul className='flex flex-col lg:flex-row list-none ml-auto'>
-                      <li className='nav-item'>
-                        <Link
-                          className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75'
-                          to='/home'
-                        >
-                          Home
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link
-                          className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75'
-                          to='/components'
-                        >
-                          Discover
-                        </Link>
-                      </li>
-                      <li className='nav-item'>
-                        <Link
-                          className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75'
-                          to='/about'
-                        >
-                          About
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                )}
+                {displayNavLinks() && <NavMenu />}
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ import Footer from './components/organisms/Footer/Footer'
 
 const App = () => (
   <Router>
-    <TopNav />
+    <TopNav windowWidth={window.innerWidth > 1023 ? 'desktop' : 'mobile'} />
     <Routes>
       <Route exact path='/' element={<Home />} />
       <Route exact path='/Home' element={<Home />} />
