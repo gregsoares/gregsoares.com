@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const NavMenu = () => {
   return (
-    <div className='flex lg:flex-grow items-center' id='example-navbar-info'>
+    <div className='flex lg:flex-grow items-center'>
       <ul className='flex flex-col lg:flex-row list-none ml-auto'>
         <li className='nav-item'>
           <Link

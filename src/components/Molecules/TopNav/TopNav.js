@@ -1,10 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import NavMenu from './NavMenu'
 
 const TopNav = () => {
   const windowWidth = window.innerWidth > 1023 ? 'desktop' : 'mobile'
-  const location = useLocation().pathname
   const [isOpen, setIsOpen] = useState(false)
   const displayNavLinks = () => {
     if (windowWidth === 'mobile' && isOpen) {
@@ -18,7 +17,7 @@ const TopNav = () => {
 
   return (
     <div
-      className='text-white top-0 absolute z-50 w-full flex flex-wrap items-center px-2 py-3 navbar-expand-lg'
+      className='text-white top-0 absolute z-50 w-full flex flex-wrap items-center px-2 py-3 navbar-expand-lg h-24 '
       data-testid='topnav-container'
     >
       <div className='w-full px-4'>
@@ -32,7 +31,7 @@ const TopNav = () => {
                 GregSoares.com
               </Link>
 
-              <div className=' inline-block'>
+              <div className=' inline-block h-12'>
                 <div className='container mx-8'>
                   <button
                     onClick={() => setIsOpen(!isOpen)}
