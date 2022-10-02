@@ -1,0 +1,365 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Me/Documents/github/gregsoares.com/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "Desktop Chrome",
+        "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Me/Documents/github/gregsoares.com/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "Desktop Firefox",
+        "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Me/Documents/github/gregsoares.com/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "Desktop Safari",
+        "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Me/Documents/github/gregsoares.com/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "iPhone 11",
+        "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Me/Documents/github/gregsoares.com/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "Pixel 2",
+        "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.1",
+    "workers": 12,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "C:\\Users\\Me\\Documents\\github\\gregsoares.com",
+    "_configDir": "C:\\Users\\Me\\Documents\\github\\gregsoares.com",
+    "_testGroupsCount": 5,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "firstComponentTest.spec.js",
+      "file": "firstComponentTest.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Intro text should load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 885,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:34.040Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 1285,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:34.031Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2162,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:34.040Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "iPhone 11",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1720,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:34.037Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Pixel 2",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1003,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:34.041Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "32818492c61aa1f7686d-20419dece834e01dea35",
+          "file": "firstComponentTest.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "TopHeader should not load with dropdown active",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1075,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:35.544Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 628,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:36.198Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1762,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:36.825Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "iPhone 11",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "failed",
+                  "duration": 1223,
+                  "error": {
+                    "message": "toBeVisible can be only used with Locator object",
+                    "stack": "Error: toBeVisible can be only used with Locator object\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:26:32"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:36.347Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-iPhone-11\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
+                    "column": 32,
+                    "line": 26
+                  }
+                }
+              ],
+              "status": "unexpected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Pixel 2",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "failed",
+                  "duration": 680,
+                  "error": {
+                    "message": "toBeVisible can be only used with Locator object",
+                    "stack": "Error: toBeVisible can be only used with Locator object\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:26:32"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T18:18:35.576Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-Pixel-2\\test-failed-1.png"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
+                    "column": 32,
+                    "line": 26
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "32818492c61aa1f7686d-9684fe60201034929797",
+          "file": "firstComponentTest.spec.js",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

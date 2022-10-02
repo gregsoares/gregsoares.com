@@ -2,7 +2,10 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75'>
+    <div
+      className='relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75'
+      id='intro-container'
+    >
       <div
         className='absolute top-0 w-full h-full bg-center bg-cover'
         style={{
@@ -19,10 +22,13 @@ const Intro = () => {
         <div className='items-center flex flex-wrap'>
           <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
             <div className='pr-12'>
-              <h1 className='text-white font-semibold text-5xl'>
+              <h1
+                className='text-white font-semibold text-5xl'
+                id='intro-title'
+              >
                 Your story starts with us.
               </h1>
-              <p className='mt-4 text-lg text-gray-200'>
+              <p className='mt-4 text-lg text-gray-200' id='intro-text'>
                 This is a simple example of a Landing Page you can build using
                 Notus React. It features multiple CSS components based on the
                 Tailwind CSS design system.
