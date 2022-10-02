@@ -19,7 +19,7 @@
         "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.spec.js"
+          "**/**/*.spec.js"
         ],
         "timeout": 30000
       },
@@ -31,7 +31,7 @@
         "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.spec.js"
+          "**/**/*.spec.js"
         ],
         "timeout": 30000
       },
@@ -43,7 +43,7 @@
         "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.spec.js"
+          "**/**/*.spec.js"
         ],
         "timeout": 30000
       },
@@ -55,7 +55,7 @@
         "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.spec.js"
+          "**/**/*.spec.js"
         ],
         "timeout": 30000
       },
@@ -67,7 +67,7 @@
         "testDir": "C:/Users/Me/Documents/github/gregsoares.com/tests",
         "testIgnore": [],
         "testMatch": [
-          "**/*.spec.js"
+          "**/**/*.spec.js"
         ],
         "timeout": 30000
       }
@@ -130,11 +130,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 929,
+                  "duration": 966,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:47.186Z",
+                  "startTime": "2022-10-02T23:39:12.764Z",
                   "attachments": []
                 }
               ],
@@ -149,11 +149,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 11211,
+                  "duration": 1296,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:47.200Z",
+                  "startTime": "2022-10-02T23:39:12.763Z",
                   "attachments": []
                 }
               ],
@@ -168,11 +168,11 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1834,
+                  "duration": 1997,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:47.206Z",
+                  "startTime": "2022-10-02T23:39:12.763Z",
                   "attachments": []
                 }
               ],
@@ -187,11 +187,11 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1317,
+                  "duration": 1270,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:47.190Z",
+                  "startTime": "2022-10-02T23:39:12.765Z",
                   "attachments": []
                 }
               ],
@@ -206,11 +206,11 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 930,
+                  "duration": 979,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:47.215Z",
+                  "startTime": "2022-10-02T23:39:12.769Z",
                   "attachments": []
                 }
               ],
@@ -219,219 +219,7 @@
           ],
           "id": "32818492c61aa1f7686d-20419dece834e01dea35",
           "file": "firstComponentTest.spec.js",
-          "line": 3,
-          "column": 1
-        },
-        {
-          "title": "NavMenuLinks should not load when on desktop viewports ",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Chrome",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 10710,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:48.684Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 602,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.256Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Safari",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 10183,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:49.622Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "iPhone 11",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 129,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:49.048Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Pixel 2",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "status": "passed",
-                  "duration": 202,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:48.705Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "32818492c61aa1f7686d-3d34645527ac2adc812d",
-          "file": "firstComponentTest.spec.js",
-          "line": 13,
-          "column": 1
-        },
-        {
-          "title": "NavMenuLinks should load when on mobile viewports ",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Chrome",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 186,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.395Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 182,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.859Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Desktop Safari",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 293,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.806Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "iPhone 11",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 10444,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:49.179Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "Pixel 2",
-              "results": [
-                {
-                  "workerIndex": 4,
-                  "status": "passed",
-                  "duration": 10476,
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-02T22:02:48.908Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "32818492c61aa1f7686d-13276c1068d97940837d",
-          "file": "firstComponentTest.spec.js",
-          "line": 29,
+          "line": 2,
           "column": 1
         },
         {
@@ -448,11 +236,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 204,
+                  "duration": 201,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.583Z",
+                  "startTime": "2022-10-02T23:39:17.537Z",
                   "attachments": []
                 }
               ],
@@ -467,11 +255,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 178,
+                  "duration": 247,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:03:00.042Z",
+                  "startTime": "2022-10-02T23:39:17.494Z",
                   "attachments": []
                 }
               ],
@@ -484,13 +272,13 @@
               "projectName": "Desktop Safari",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 6,
                   "status": "passed",
-                  "duration": 294,
+                  "duration": 231,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:03:00.100Z",
+                  "startTime": "2022-10-02T23:39:21.024Z",
                   "attachments": []
                 }
               ],
@@ -503,13 +291,13 @@
               "projectName": "iPhone 11",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 5,
                   "status": "passed",
-                  "duration": 1248,
+                  "duration": 1306,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.624Z",
+                  "startTime": "2022-10-02T23:39:18.506Z",
                   "attachments": []
                 }
               ],
@@ -524,11 +312,11 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 1292,
+                  "duration": 926,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T22:02:59.385Z",
+                  "startTime": "2022-10-02T23:39:17.639Z",
                   "attachments": []
                 }
               ],
@@ -537,8 +325,765 @@
           ],
           "id": "32818492c61aa1f7686d-69cdf3b540f58fcb95e2",
           "file": "firstComponentTest.spec.js",
-          "line": 44,
+          "line": 67,
           "column": 1
+        }
+      ],
+      "suites": [
+        {
+          "title": "On load, TopNav: ",
+          "file": "firstComponentTest.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "NavMenuLinks: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should be visible when on desktop viewports",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Chrome",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 1147,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.308Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-16f2b1f5ff34fe936708",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "should not be visible when on mobile viewports, but tonav-mobile-button should be visible.",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Chrome",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 210,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.456Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-75b6f91a7078f7baa950",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 29,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "CardSection: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 44,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should have 3 cards",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Chrome",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 894,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.667Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-c184a346ee7a27077609",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 45,
+                  "column": 5
+                },
+                {
+                  "title": "should have 3 cards with the correct titles & tesxts",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Chrome",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "status": "passed",
+                          "duration": 974,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:16.562Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-27d3b5314e56cf1ee78d",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 54,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "On load, TopNav: ",
+          "file": "firstComponentTest.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "NavMenuLinks: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should be visible when on desktop viewports",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 807,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.996Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-eafea1f0b0132a3bccc7",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "should not be visible when on mobile viewports, but tonav-mobile-button should be visible.",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 181,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.804Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-ea4aa5e64b308a9a1787",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 29,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "CardSection: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 44,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should have 3 cards",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 691,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.986Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-e2f2402af97c7e965ffb",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 45,
+                  "column": 5
+                },
+                {
+                  "title": "should have 3 cards with the correct titles & tesxts",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "status": "passed",
+                          "duration": 816,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:16.678Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-aed5add3604af537d50b",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 54,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "On load, TopNav: ",
+          "file": "firstComponentTest.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "NavMenuLinks: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should be visible when on desktop viewports",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Safari",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "status": "passed",
+                          "duration": 1372,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.334Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-85a55b94730362fd1948",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "should not be visible when on mobile viewports, but tonav-mobile-button should be visible.",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Safari",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "status": "passed",
+                          "duration": 381,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:16.707Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-00531bd6ec3ee17074b3",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 29,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "CardSection: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 44,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should have 3 cards",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Safari",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "status": "failed",
+                          "duration": 1689,
+                          "error": {
+                            "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \"#card-1\"\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \"#card-1\"\u001b[22m\n\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:50:21"
+                          },
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:17.089Z",
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-On-load-TopNav-CardSection-should-have-3-cards-Desktop-Safari\\test-failed-1.png"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
+                            "column": 21,
+                            "line": 50
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-150d90a3daee7d3f5114",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 45,
+                  "column": 5
+                },
+                {
+                  "title": "should have 3 cards with the correct titles & tesxts",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Desktop Safari",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "status": "passed",
+                          "duration": 1443,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:19.259Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-66fc9ebc718b787de65b",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 54,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "On load, TopNav: ",
+          "file": "firstComponentTest.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "NavMenuLinks: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should be visible when on desktop viewports",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "iPhone 11",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "status": "passed",
+                          "duration": 171,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.677Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-7a6fc5ec7a239fc8b328",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "should not be visible when on mobile viewports, but tonav-mobile-button should be visible.",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "iPhone 11",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "status": "passed",
+                          "duration": 977,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.849Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-4e2fb6296e293bc39b40",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 29,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "CardSection: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 44,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should have 3 cards",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "iPhone 11",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "status": "failed",
+                          "duration": 358,
+                          "error": {
+                            "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \"#card-1\"\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for selector \"#card-1\"\u001b[22m\n\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:50:21"
+                          },
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.828Z",
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-On-load-TopNav-CardSection-should-have-3-cards-iPhone-11\\test-failed-1.png"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
+                            "column": 21,
+                            "line": 50
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-ced31b367141c62c3172",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 45,
+                  "column": 5
+                },
+                {
+                  "title": "should have 3 cards with the correct titles & tesxts",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "iPhone 11",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "status": "passed",
+                          "duration": 1357,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:16.739Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-e185e641b6dc76f5630c",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 54,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "On load, TopNav: ",
+          "file": "firstComponentTest.spec.js",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "NavMenuLinks: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should be visible when on desktop viewports",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Pixel 2",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "status": "passed",
+                          "duration": 199,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.332Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-af8ed2b138d931d1e042",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 14,
+                  "column": 5
+                },
+                {
+                  "title": "should not be visible when on mobile viewports, but tonav-mobile-button should be visible.",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Pixel 2",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "status": "passed",
+                          "duration": 867,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:14.532Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-0d7099d280c8a67f7f16",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 29,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "CardSection: ",
+              "file": "firstComponentTest.spec.js",
+              "line": 44,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should have 3 cards",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Pixel 2",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "status": "passed",
+                          "duration": 860,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:15.400Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-0f989506c068137a93b4",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 45,
+                  "column": 5
+                },
+                {
+                  "title": "should have 3 cards with the correct titles & tesxts",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectName": "Pixel 2",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "status": "passed",
+                          "duration": 1378,
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2022-10-02T23:39:16.260Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "32818492c61aa1f7686d-cbd60ebb41e72abbb601",
+                  "file": "firstComponentTest.spec.js",
+                  "line": 54,
+                  "column": 5
+                }
+              ]
+            }
+          ]
         }
       ]
     }

@@ -1,32 +1,41 @@
 import { Link } from 'react-router-dom'
 import Card from './Card'
 
+const cardData = [
+  {
+    icon: 'fas fa-award',
+    iconBackgroundColor: 'bg-red-400',
+    title: 'Awarded Agency',
+    description:
+      ' Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.',
+  },
+  {
+    icon: 'fas fa-retweet',
+    iconBackgroundColor: 'bg-teal-500',
+    title: 'Free Revisions',
+    description:
+      'Keep you user engaged by providing meaningful information.  Remember that by this time, the user is curious.',
+  },
+  {
+    icon: 'fas fa-fingerprint',
+    iconBackgroundColor: 'bg-green-500',
+    title: 'Verified Company',
+    description:
+      ' Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!',
+  },
+]
+
 const CardSection = () => {
   return (
     <section className='pb-20 bg-gray-200 -mt-24'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap' id='card-container'>
-          <Card
-            icon='fas fa-award'
-            iconBackgroundColor='bg-red-400'
-            title='Awarded Agency'
-            description=' Divide details about your product or agency work into parts. A
-            paragraph describing a feature will be enough.'
-          />
-          <Card
-            icon={'fas fa-retweet'}
-            iconBackgroundColor={'bg-teal-500'}
-            title='Free Revisions'
-            description='Keep you user engaged by providing meaningful information.
-                  Remember that by this time, the user is curious.'
-          />
-          <Card
-            icon={'fas fa-fingerprint'}
-            iconBackgroundColor={'bg-green-500'}
-            title='Verified Company'
-            description=' Write a few lines about each one. A paragraph describing a
-                  feature will be enough. Keep you user engaged!'
-          />
+          {cardData.map(
+            (card, index) => (
+              console.log('Index from cardData.map: ', index),
+              (<Card keyIndex={index + 1} {...card} />)
+            )
+          )}
         </div>
 
         <div className='flex flex-wrap items-center mt-32'>
