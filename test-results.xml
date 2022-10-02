@@ -1,32 +1,52 @@
-<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="4.281930999994278">
-<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.83" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Chrome] › firstComponentTest.spec.js › Intro text should load" time="0.933">
+<testsuites id="" name="" tests="20" failures="0" skipped="0" errors="0" time="14.17771099999547">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664748166720" hostname="" tests="4" failures="0" skipped="0" time="12.029" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Chrome] › firstComponentTest.spec.js › Intro text should load" time="0.929">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Chrome] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.897">
+<testcase name="NavMenuLinks should not load when on desktop viewports " classname="[Desktop Chrome] › firstComponentTest.spec.js › NavMenuLinks should not load when on desktop viewports " time="10.71">
 </testcase>
-</testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.836" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Firefox] › firstComponentTest.spec.js › Intro text should load" time="1.23">
+<testcase name="NavMenuLinks should load when on mobile viewports " classname="[Desktop Chrome] › firstComponentTest.spec.js › NavMenuLinks should load when on mobile viewports " time="0.186">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Firefox] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.606">
+<testcase name="Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" classname="[Desktop Chrome] › firstComponentTest.spec.js › Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" time="0.204">
 </testcase>
 </testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="3.16" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Safari] › firstComponentTest.spec.js › Intro text should load" time="1.804">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664748166720" hostname="" tests="4" failures="0" skipped="0" time="12.173" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Firefox] › firstComponentTest.spec.js › Intro text should load" time="11.211">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Safari] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="1.356">
+<testcase name="NavMenuLinks should not load when on desktop viewports " classname="[Desktop Firefox] › firstComponentTest.spec.js › NavMenuLinks should not load when on desktop viewports " time="0.602">
 </testcase>
-</testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="2.078" errors="0">
-<testcase name="Intro text should load" classname="[iPhone 11] › firstComponentTest.spec.js › Intro text should load" time="1.272">
+<testcase name="NavMenuLinks should load when on mobile viewports " classname="[Desktop Firefox] › firstComponentTest.spec.js › NavMenuLinks should load when on mobile viewports " time="0.182">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[iPhone 11] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.806">
+<testcase name="Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" classname="[Desktop Firefox] › firstComponentTest.spec.js › Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" time="0.178">
 </testcase>
 </testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.843" errors="0">
-<testcase name="Intro text should load" classname="[Pixel 2] › firstComponentTest.spec.js › Intro text should load" time="0.953">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664748166720" hostname="" tests="4" failures="0" skipped="0" time="12.604" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Safari] › firstComponentTest.spec.js › Intro text should load" time="1.834">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Pixel 2] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.89">
+<testcase name="NavMenuLinks should not load when on desktop viewports " classname="[Desktop Safari] › firstComponentTest.spec.js › NavMenuLinks should not load when on desktop viewports " time="10.183">
+</testcase>
+<testcase name="NavMenuLinks should load when on mobile viewports " classname="[Desktop Safari] › firstComponentTest.spec.js › NavMenuLinks should load when on mobile viewports " time="0.293">
+</testcase>
+<testcase name="Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" classname="[Desktop Safari] › firstComponentTest.spec.js › Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" time="0.294">
+</testcase>
+</testsuite>
+<testsuite name="firstComponentTest.spec.js" timestamp="1664748166720" hostname="" tests="4" failures="0" skipped="0" time="13.138" errors="0">
+<testcase name="Intro text should load" classname="[iPhone 11] › firstComponentTest.spec.js › Intro text should load" time="1.317">
+</testcase>
+<testcase name="NavMenuLinks should not load when on desktop viewports " classname="[iPhone 11] › firstComponentTest.spec.js › NavMenuLinks should not load when on desktop viewports " time="0.129">
+</testcase>
+<testcase name="NavMenuLinks should load when on mobile viewports " classname="[iPhone 11] › firstComponentTest.spec.js › NavMenuLinks should load when on mobile viewports " time="10.444">
+</testcase>
+<testcase name="Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" classname="[iPhone 11] › firstComponentTest.spec.js › Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" time="1.248">
+</testcase>
+</testsuite>
+<testsuite name="firstComponentTest.spec.js" timestamp="1664748166720" hostname="" tests="4" failures="0" skipped="0" time="12.9" errors="0">
+<testcase name="Intro text should load" classname="[Pixel 2] › firstComponentTest.spec.js › Intro text should load" time="0.93">
+</testcase>
+<testcase name="NavMenuLinks should not load when on desktop viewports " classname="[Pixel 2] › firstComponentTest.spec.js › NavMenuLinks should not load when on desktop viewports " time="0.202">
+</testcase>
+<testcase name="NavMenuLinks should load when on mobile viewports " classname="[Pixel 2] › firstComponentTest.spec.js › NavMenuLinks should load when on mobile viewports " time="10.476">
+</testcase>
+<testcase name="Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" classname="[Pixel 2] › firstComponentTest.spec.js › Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks" time="1.292">
 </testcase>
 </testsuite>
 </testsuites>

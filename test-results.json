@@ -130,11 +130,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 933,
+                  "duration": 929,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:05.201Z",
+                  "startTime": "2022-10-02T22:02:47.186Z",
                   "attachments": []
                 }
               ],
@@ -149,11 +149,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 1230,
+                  "duration": 11211,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:05.210Z",
+                  "startTime": "2022-10-02T22:02:47.200Z",
                   "attachments": []
                 }
               ],
@@ -168,11 +168,11 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1804,
+                  "duration": 1834,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:05.217Z",
+                  "startTime": "2022-10-02T22:02:47.206Z",
                   "attachments": []
                 }
               ],
@@ -187,11 +187,11 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1272,
+                  "duration": 1317,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:05.203Z",
+                  "startTime": "2022-10-02T22:02:47.190Z",
                   "attachments": []
                 }
               ],
@@ -206,11 +206,11 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 953,
+                  "duration": 930,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:05.207Z",
+                  "startTime": "2022-10-02T22:02:47.215Z",
                   "attachments": []
                 }
               ],
@@ -223,7 +223,7 @@
           "column": 1
         },
         {
-          "title": "TopHeader should not load with dropdown active",
+          "title": "NavMenuLinks should not load when on desktop viewports ",
           "ok": true,
           "tags": [],
           "tests": [
@@ -236,11 +236,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 897,
+                  "duration": 10710,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:06.698Z",
+                  "startTime": "2022-10-02T22:02:48.684Z",
                   "attachments": []
                 }
               ],
@@ -255,11 +255,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 606,
+                  "duration": 602,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:07.342Z",
+                  "startTime": "2022-10-02T22:02:59.256Z",
                   "attachments": []
                 }
               ],
@@ -274,11 +274,11 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1356,
+                  "duration": 10183,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:07.636Z",
+                  "startTime": "2022-10-02T22:02:49.622Z",
                   "attachments": []
                 }
               ],
@@ -293,11 +293,11 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 806,
+                  "duration": 129,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:07.053Z",
+                  "startTime": "2022-10-02T22:02:49.048Z",
                   "attachments": []
                 }
               ],
@@ -312,20 +312,232 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 890,
+                  "duration": 202,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:43:06.720Z",
+                  "startTime": "2022-10-02T22:02:48.705Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "32818492c61aa1f7686d-9684fe60201034929797",
+          "id": "32818492c61aa1f7686d-3d34645527ac2adc812d",
           "file": "firstComponentTest.spec.js",
           "line": 13,
+          "column": 1
+        },
+        {
+          "title": "NavMenuLinks should load when on mobile viewports ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 186,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.395Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 182,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.859Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 293,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.806Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "iPhone 11",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 10444,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:49.179Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Pixel 2",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 10476,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:48.908Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "32818492c61aa1f7686d-13276c1068d97940837d",
+          "file": "firstComponentTest.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Clicking mon the topNav Menu Button on Mobile viewport should load dropdown with topNavLinks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 204,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.583Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 178,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:03:00.042Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Desktop Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 294,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:03:00.100Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "iPhone 11",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1248,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.624Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "Pixel 2",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1292,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-10-02T22:02:59.385Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "32818492c61aa1f7686d-69cdf3b540f58fcb95e2",
+          "file": "firstComponentTest.spec.js",
+          "line": 44,
           "column": 1
         }
       ]
