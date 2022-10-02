@@ -22,9 +22,9 @@ test('TopHeader should not load with dropdown active', async ({
   if (viewport.width > 1023) {
     expect(navMenuContainer).toBeVisible()
   } else {
-    const topNavMobileButton = await page.$('#topnav-mobile-button')
-    expect(topNavMobileButton).toBeVisible()
+    const topNavMobileButton = await page.locator('#topnav-mobile-button')
     expect(navMenuContainer).toBeHidden()
+    expect(topNavMobileButton).toBeVisible()
   }
 })
 

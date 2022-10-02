@@ -1,82 +1,32 @@
-<testsuites id="" name="" tests="10" failures="2" skipped="0" errors="0" time="5.0768400000035765">
-<testsuite name="firstComponentTest.spec.js" timestamp="1664734713564" hostname="" tests="2" failures="0" skipped="0" time="1.96" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Chrome] › firstComponentTest.spec.js › Intro text should load" time="0.885">
+<testsuites id="" name="" tests="10" failures="0" skipped="0" errors="0" time="4.281930999994278">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.83" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Chrome] › firstComponentTest.spec.js › Intro text should load" time="0.933">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Chrome] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="1.075">
-</testcase>
-</testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664734713564" hostname="" tests="2" failures="0" skipped="0" time="1.913" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Firefox] › firstComponentTest.spec.js › Intro text should load" time="1.285">
-</testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Firefox] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.628">
+<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Chrome] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.897">
 </testcase>
 </testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664734713564" hostname="" tests="2" failures="0" skipped="0" time="3.924" errors="0">
-<testcase name="Intro text should load" classname="[Desktop Safari] › firstComponentTest.spec.js › Intro text should load" time="2.162">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.836" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Firefox] › firstComponentTest.spec.js › Intro text should load" time="1.23">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Safari] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="1.762">
-</testcase>
-</testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664734713564" hostname="" tests="2" failures="1" skipped="0" time="2.943" errors="0">
-<testcase name="Intro text should load" classname="[iPhone 11] › firstComponentTest.spec.js › Intro text should load" time="1.72">
-</testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[iPhone 11] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="1.223">
-<failure message="firstComponentTest.spec.js:13:1 TopHeader should not load with dropdown active" type="FAILURE">
-<![CDATA[  [iPhone 11] › firstComponentTest.spec.js:13:1 › TopHeader should not load with dropdown active ===
-
-    Error: toBeVisible can be only used with Locator object
-
-      24 |   } else {
-      25 |     const topNavMobileButton = await page.$('#topnav-mobile-button')
-    > 26 |     expect(topNavMobileButton).toBeVisible()
-         |                                ^
-      27 |     expect(navMenuContainer).toBeHidden()
-      28 |   }
-      29 | })
-
-        at C:\Users\Me\Documents\github\gregsoares.com\tests\firstComponentTest.spec.js:26:32
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-iPhone-11\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-iPhone-11\test-failed-1.png]]
-]]>
-</system-out>
+<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Firefox] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.606">
 </testcase>
 </testsuite>
-<testsuite name="firstComponentTest.spec.js" timestamp="1664734713564" hostname="" tests="2" failures="1" skipped="0" time="1.683" errors="0">
-<testcase name="Intro text should load" classname="[Pixel 2] › firstComponentTest.spec.js › Intro text should load" time="1.003">
+<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="3.16" errors="0">
+<testcase name="Intro text should load" classname="[Desktop Safari] › firstComponentTest.spec.js › Intro text should load" time="1.804">
 </testcase>
-<testcase name="TopHeader should not load with dropdown active" classname="[Pixel 2] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.68">
-<failure message="firstComponentTest.spec.js:13:1 TopHeader should not load with dropdown active" type="FAILURE">
-<![CDATA[  [Pixel 2] › firstComponentTest.spec.js:13:1 › TopHeader should not load with dropdown active =====
-
-    Error: toBeVisible can be only used with Locator object
-
-      24 |   } else {
-      25 |     const topNavMobileButton = await page.$('#topnav-mobile-button')
-    > 26 |     expect(topNavMobileButton).toBeVisible()
-         |                                ^
-      27 |     expect(navMenuContainer).toBeHidden()
-      28 |   }
-      29 | })
-
-        at C:\Users\Me\Documents\github\gregsoares.com\tests\firstComponentTest.spec.js:26:32
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-Pixel-2\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-Pixel-2\test-failed-1.png]]
-]]>
-</system-out>
+<testcase name="TopHeader should not load with dropdown active" classname="[Desktop Safari] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="1.356">
+</testcase>
+</testsuite>
+<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="2.078" errors="0">
+<testcase name="Intro text should load" classname="[iPhone 11] › firstComponentTest.spec.js › Intro text should load" time="1.272">
+</testcase>
+<testcase name="TopHeader should not load with dropdown active" classname="[iPhone 11] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.806">
+</testcase>
+</testsuite>
+<testsuite name="firstComponentTest.spec.js" timestamp="1664736184733" hostname="" tests="2" failures="0" skipped="0" time="1.843" errors="0">
+<testcase name="Intro text should load" classname="[Pixel 2] › firstComponentTest.spec.js › Intro text should load" time="0.953">
+</testcase>
+<testcase name="TopHeader should not load with dropdown active" classname="[Pixel 2] › firstComponentTest.spec.js › TopHeader should not load with dropdown active" time="0.89">
 </testcase>
 </testsuite>
 </testsuites>

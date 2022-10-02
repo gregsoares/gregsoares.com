@@ -130,11 +130,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 885,
+                  "duration": 933,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:34.040Z",
+                  "startTime": "2022-10-02T18:43:05.201Z",
                   "attachments": []
                 }
               ],
@@ -149,11 +149,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 1285,
+                  "duration": 1230,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:34.031Z",
+                  "startTime": "2022-10-02T18:43:05.210Z",
                   "attachments": []
                 }
               ],
@@ -168,11 +168,11 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 2162,
+                  "duration": 1804,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:34.040Z",
+                  "startTime": "2022-10-02T18:43:05.217Z",
                   "attachments": []
                 }
               ],
@@ -187,11 +187,11 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1720,
+                  "duration": 1272,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:34.037Z",
+                  "startTime": "2022-10-02T18:43:05.203Z",
                   "attachments": []
                 }
               ],
@@ -206,11 +206,11 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 1003,
+                  "duration": 953,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:34.041Z",
+                  "startTime": "2022-10-02T18:43:05.207Z",
                   "attachments": []
                 }
               ],
@@ -236,11 +236,11 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1075,
+                  "duration": 897,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:35.544Z",
+                  "startTime": "2022-10-02T18:43:06.698Z",
                   "attachments": []
                 }
               ],
@@ -255,11 +255,11 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 628,
+                  "duration": 606,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:36.198Z",
+                  "startTime": "2022-10-02T18:43:07.342Z",
                   "attachments": []
                 }
               ],
@@ -274,11 +274,11 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 1762,
+                  "duration": 1356,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:36.825Z",
+                  "startTime": "2022-10-02T18:43:07.636Z",
                   "attachments": []
                 }
               ],
@@ -292,31 +292,16 @@
               "results": [
                 {
                   "workerIndex": 3,
-                  "status": "failed",
-                  "duration": 1223,
-                  "error": {
-                    "message": "toBeVisible can be only used with Locator object",
-                    "stack": "Error: toBeVisible can be only used with Locator object\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:26:32"
-                  },
+                  "status": "passed",
+                  "duration": 806,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:36.347Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-iPhone-11\\test-failed-1.png"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
-                    "column": 32,
-                    "line": 26
-                  }
+                  "startTime": "2022-10-02T18:43:07.053Z",
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             },
             {
               "timeout": 30000,
@@ -326,31 +311,16 @@
               "results": [
                 {
                   "workerIndex": 4,
-                  "status": "failed",
-                  "duration": 680,
-                  "error": {
-                    "message": "toBeVisible can be only used with Locator object",
-                    "stack": "Error: toBeVisible can be only used with Locator object\n    at C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js:26:32"
-                  },
+                  "status": "passed",
+                  "duration": 890,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-02T18:18:35.576Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\test-results\\firstComponentTest-TopHeader-should-not-load-with-dropdown-active-Pixel-2\\test-failed-1.png"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\Me\\Documents\\github\\gregsoares.com\\tests\\firstComponentTest.spec.js",
-                    "column": 32,
-                    "line": 26
-                  }
+                  "startTime": "2022-10-02T18:43:06.720Z",
+                  "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "32818492c61aa1f7686d-9684fe60201034929797",
