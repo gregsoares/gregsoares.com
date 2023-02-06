@@ -13,7 +13,6 @@ const TopNav = () => {
     }
     return false
   }
-  console.log('isOpen', isOpen)
 
   return (
     <div
@@ -29,14 +28,14 @@ const TopNav = () => {
               id='topnav-logo-container'
             >
               <Link
-                className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase '
+                className='text-xl font-bold leading-relaxed inline-block mx-auto py-2 whitespace-no-wrap uppercase '
                 to='/'
                 id='topnav-logo'
               >
                 GregSoares.com
               </Link>
 
-              <div className=' inline-block h-12'>
+              {/* <div className=' inline-block h-12'>
                 <div className='container mx-8'>
                   <button
                     onClick={() => setIsOpen(!isOpen)}
@@ -50,7 +49,7 @@ const TopNav = () => {
                   </button>
                 </div>
                 {displayNavLinks() && <NavMenu />}
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

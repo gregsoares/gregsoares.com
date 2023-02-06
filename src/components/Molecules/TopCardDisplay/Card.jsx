@@ -1,11 +1,10 @@
 const Card = ({ title, description, icon, iconBackgroundColor, keyIndex }) => {
-  console.log('title', title)
   return (
     title &&
     description && (
       <div
         className='lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center'
-        id={`card-${keyIndex}`}
+        key={`card-${keyIndex}`}
       >
         <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg'>
           <div className='px-4 py-5 flex-auto'>

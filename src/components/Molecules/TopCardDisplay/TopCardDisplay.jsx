@@ -35,12 +35,9 @@ const CardSection = () => {
     <section className='pb-20 bg-gray-200 -mt-24'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap' id='card-container'>
-          {cardData.map(
-            (card, index) => (
-              console.log('Index from cardData.map: ', index),
-              (<Card keyIndex={index + 1} {...card} />)
-            )
-          )}
+          {cardData.map((card, index) => (
+            <Card key={index + 1} {...card} />
+          ))}
         </div>
 
         <div className='flex flex-wrap items-center mt-32'>

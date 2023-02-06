@@ -21,18 +21,18 @@ const Intro = () => {
       <div className='container relative mx-auto mt-16'>
         <div className='items-center flex flex-wrap'>
           <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
-            <div className=' text-gray-200 '>
-              <h1
-                className='text-white font-semibold text-5xl'
-                id='intro-title'
+            <h1 className='text-white font-semibold text-5xl' id='intro-title'>
+              Enjoying the Journey
+            </h1>
+            <div className='flex w-full justify-evenly my-4 text-gray-200 '>
+              <p
+                className='inline text-md leading-relaxed px-3'
+                id='intro-text'
               >
-                Enjoying the Journey
-              </h1>
-              <p className='mt-4 text-lg' id='intro-text'>
-                Solving problems and building things is what I love to do.
+                Computer Enthusiast
               </p>
 
-              <p className='flex my-2 text-md leading-relaxed px-3'>
+              <p className='inline text-md leading-relaxed px-3'>
                 JavaScript Web Developer
               </p>
             </div>

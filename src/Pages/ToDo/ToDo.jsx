@@ -33,8 +33,6 @@ const ToDo = () => {
       localStorage.setItem('items', JSON.stringify(items))
   }, [items])
 
-  console.log('items', items)
-
   return (
     <div className='relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75'>
       <div
