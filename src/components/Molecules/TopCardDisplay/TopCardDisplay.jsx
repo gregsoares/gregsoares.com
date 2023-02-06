@@ -13,7 +13,7 @@ const cardData = [
   {
     icon: 'fas fa-retweet',
     iconBackgroundColor: 'bg-teal-500',
-    title: 'With much power, comes much WORK',
+    title: 'The Connection',
     description: [
       `IRC scripting gave me a taste of how programming allowed me to see an issue and solve it, and even automate things like an admin bot to manage a channel.`,
       `Networking was a natural progression, finding out how things connected to each other and how they communicated. I was fascinated by how the internet worked and how I could make it work for me.`,
