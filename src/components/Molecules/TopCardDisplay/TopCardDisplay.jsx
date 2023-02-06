@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Card from './Card'
 
 const cardData = [
@@ -7,25 +6,27 @@ const cardData = [
     iconBackgroundColor: 'bg-blue-500',
     title: 'Love at First Struggle',
     description: [
-      `Back when flash first came out, and mIRC was the only real-time chat client, I fell in love with how much you could do on the internet.`,
-      ` Learning mIRC scripting lead me to networking`,
+      `Reaching people all over the world was mind-blowing as an 8 year old. mIRC real-time chat allowed me to type and have an instant response from someone on the other side of the world. I was hooked.`,
+      'This introduced me to scripting, networking, hacking and being self-taugh meant making, and seemingly more often breaking things too, so I had to learn to fix them.',
     ],
   },
   {
     icon: 'fas fa-retweet',
     iconBackgroundColor: 'bg-teal-500',
-    title: 'Free Revisions',
+    title: 'With much power, comes much WORK',
     description: [
-      'Keep you user engaged by providing meaningful information.  Remember that by this time, the user is curious.',
+      `IRC scripting gave me a taste of how programming allowed me to see an issue and solve it, and even automate things like an admin bot to manage a channel.`,
+      `Networking was a natural progression, finding out how things connected to each other and how they communicated. I was fascinated by how the internet worked and how I could make it work for me.`,
+      `I've always been a curious person, a problem solver a tinkerer, and now I'm fortunate enough to still play with the network, programming and even cybersecurity.`,
     ],
   },
   {
     icon: 'fas fa-fingerprint',
     iconBackgroundColor: 'bg-yellow-500',
-    title: 'Verified Company',
+    title: 'Never Stop Learning',
     description: [
-      ' Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!',
-      'Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!',
+      'Writing code allows me to create solutions to problems, improve processes and automate tasks. Networking allows me to understand the underlying systems where it all happens. ',
+      `Cybersecurity is a mindset. It's about understanding the risks and how to mitigate them. Always thinking how can this be used and abused, and keeping up with the the latest threats.`,
     ],
   },
 ]
@@ -57,15 +58,12 @@ const CardSection = () => {
               faster. You can change the text and images and you're good to go.
               Just make sure you enable them first via JavaScript.
             </p>
-            <Link to='/' className='font-bold text-gray-700 mt-8'>
-              Check Notus React!
-            </Link>
           </div>
 
           <div className='w-full md:w-4/12 px-4 mr-auto ml-auto'>
             <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-500'>
               <img
-                alt='...'
+                alt='young people laughing with a laptop on the table'
                 src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
                 className='w-full align-middle rounded-t-lg'
               />
