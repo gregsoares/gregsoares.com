@@ -4,24 +4,29 @@ import Card from './Card'
 const cardData = [
   {
     icon: 'fas fa-award',
-    iconBackgroundColor: 'bg-red-400',
-    title: 'Awarded Agency',
-    description:
-      ' Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.',
+    iconBackgroundColor: 'bg-blue-500',
+    title: 'Love at First Struggle',
+    description: [
+      `Back when flash first came out, and mIRC was the only real-time chat client, I fell in love with how much you could do on the internet.`,
+      ` Learning mIRC scripting lead me to networking`,
+    ],
   },
   {
     icon: 'fas fa-retweet',
     iconBackgroundColor: 'bg-teal-500',
     title: 'Free Revisions',
-    description:
+    description: [
       'Keep you user engaged by providing meaningful information.  Remember that by this time, the user is curious.',
+    ],
   },
   {
     icon: 'fas fa-fingerprint',
-    iconBackgroundColor: 'bg-green-500',
+    iconBackgroundColor: 'bg-yellow-500',
     title: 'Verified Company',
-    description:
+    description: [
       ' Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!',
+      'Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!',
+    ],
   },
 ]
 

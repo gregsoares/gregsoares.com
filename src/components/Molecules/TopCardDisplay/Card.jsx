@@ -1,4 +1,5 @@
 const Card = ({ title, description, icon, iconBackgroundColor, keyIndex }) => {
+  console.log('title', title)
   return (
     title &&
     description && (
@@ -13,15 +14,14 @@ const Card = ({ title, description, icon, iconBackgroundColor, keyIndex }) => {
             >
               {icon && <i className={icon}></i>}
             </div>
-            <h6 className='text-xl font-semibold' id={`card-${keyIndex}-title`}>
+            <h6 className='text-lg font-semibold' id={`card-${keyIndex}-title`}>
               {title}
             </h6>
-            <p
-              className='mt-2 mb-4 text-gray-500'
-              id={`card-${keyIndex}-description`}
-            >
-              {description}
-            </p>
+            {description?.map((paragraph, index) => (
+              <p key={index} className='m-2 text-sm text-gray-500'>
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </div>

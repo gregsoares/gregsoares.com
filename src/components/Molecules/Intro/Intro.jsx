@@ -21,17 +21,19 @@ const Intro = () => {
       <div className='container relative mx-auto mt-16'>
         <div className='items-center flex flex-wrap'>
           <div className='w-full lg:w-6/12 px-4 ml-auto mr-auto text-center'>
-            <div className='pr-12'>
+            <div className=' text-gray-200 '>
               <h1
                 className='text-white font-semibold text-5xl'
                 id='intro-title'
               >
-                Your story starts with us.
+                Enjoying the Journey
               </h1>
-              <p className='mt-4 text-lg text-gray-200' id='intro-text'>
-                This is a simple example of a Landing Page you can build using
-                Notus React. It features multiple CSS components based on the
-                Tailwind CSS design system.
+              <p className='mt-4 text-lg' id='intro-text'>
+                Solving problems and building things is what I love to do.
+              </p>
+
+              <p className='flex my-2 text-md leading-relaxed px-3'>
+                JavaScript Web Developer
               </p>
             </div>
           </div>
