@@ -85,45 +85,6 @@ const Footer = () => {
                     />
                   </ul>
                 </div>
-                {/* <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-gray-500 text-sm font-semibold mb-2">
-                    Other Resources
-                  </span>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer"
-                      >
-                        MIT License
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=nr-footer"
-                      >
-                        Terms & Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=nr-footer"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-gray-600 hover:text-gray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nr-footer"
-                      >
-                        Contact Us
-                      </a>
-                    </li>
-                  </ul>
-                </div> */}
               </div>
             </div>
           </div>
@@ -131,15 +92,17 @@ const Footer = () => {
           <div className='flex flex-wrap items-center md:justify-between justify-center'>
             <div className='w-full md:w-4/12 px-4 mx-auto text-center'>
               <div className='text-sm text-gray-500 font-semibold py-1'>
-                Copyright © {new Date().getFullYear()} by{' '}
+                Copyright © {new Date().getFullYear()} by Greg Soares.
+              </div>
+              <p className='text-xs text-gray-500 hover:text-gray-800'>
+                Designed by{' '}
                 <a
                   href='https://www.creative-tim.com?ref=nr-footer'
-                  className='text-gray-500 hover:text-gray-800'
+                  className=''
                 >
-                  Greg Soares
+                  Creative-Tim
                 </a>
-                .
-              </div>
+              </p>
             </div>
           </div>
         </div>

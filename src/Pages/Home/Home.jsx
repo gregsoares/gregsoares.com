@@ -4,6 +4,7 @@ import Intro from '../../components/Molecules/Intro'
 import BottomCardDisplay from '../../components/Molecules/BottomCardDisplay'
 import TrippleIconIntro from '../../components/Molecules/TrippleIconIntro/TrippleIconIntro'
 import ContactForm from '../../components/Molecules/ContactForm'
+import ImageRight from '../../components/organisms/ImageRight'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <main>
         <Intro />
         <CardSection />
+        {/* <ImageRight /> */}
         {/* <BottomCardDisplay /> */}
 
         {/* <Heroes /> */}
