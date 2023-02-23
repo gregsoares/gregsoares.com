@@ -17,7 +17,7 @@ const Home = () => {
 
         {/* <Heroes /> */}
         {/* <TrippleIconIntro /> */}
-        {/* <ContactForm /> */}
+        <ContactForm />
       </main>
     </>
   )
