@@ -1,7 +1,10 @@
-const Label = ({ text, name }) => (
-  <label for={name} className="text-slate-500 font-medium text-medium">
+const Label = ({ text, htmlFor }) => (
+  <label
+    htmlFor={htmlFor}
+    className='block uppercase text-gray-600 text-xs font-bold mb-2'
+  >
     {text}
   </label>
-);
+)
 
-export default Label;
+export default Label

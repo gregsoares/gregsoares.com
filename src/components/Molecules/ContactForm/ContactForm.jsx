@@ -1,6 +1,10 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import Input from '../../Atoms/Input'
+import Label from '../../Atoms/Label/Label'
 
+//TODO: Add "Message Sent" after successful message delivery
+//TODO: form Validation
 const ContactForm = () => {
   const formRef = useRef()
 
@@ -16,11 +20,13 @@ const ContactForm = () => {
         'G_7Uq3PGyX3qRNPFC'
       )
       .then(
-        result => {
-          console.log(result.text)
+        () => {
+          e.target.reset()
+          error && setError(false)
         },
         error => {
-          console.log(error.text)
+          setError(true)
+          console.log(error)
         }
       )
   }
@@ -45,48 +51,23 @@ const ContactForm = () => {
                 <p className='leading-relaxed mt-1 mb-4 text-gray-500'>
                   Complete this form and we will get back to you in 24 hours.
                 </p>
+                {/* Input(+label) component here */}
                 <div className='relative w-full mb-3 mt-8'>
-                  <label
-                    className='block uppercase text-gray-600 text-xs font-bold mb-2'
-                    htmlFor='user_name'
-                  >
-                    Name
-                  </label>
-                  <input
-                    name='user_name'
-                    type='text'
-                    className='border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
-                    placeholder='Full Name'
-                  />
+                  <Label htmlFor='user_name' text='Name' />
+                  <Input name='user_name' placeholder='Full Name' />
                 </div>
 
                 <div className='relative w-full mb-3'>
-                  <label
-                    className='block uppercase text-gray-600 text-xs font-bold mb-2'
-                    htmlFor='user_email'
-                  >
-                    Email
-                  </label>
-                  <input
-                    name='user_email'
-                    type='email'
-                    className='border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
-                    placeholder='Email'
-                  />
+                  <Label htmlFor='user_email' text='Email' />
+
+                  <Input name='user_email' type='email' placeholder='Email' />
                 </div>
 
                 <div className='relative w-full mb-3'>
-                  <label
-                    className='block uppercase text-gray-600 text-xs font-bold mb-2'
-                    htmlFor='message'
-                  >
-                    Message
-                  </label>
-                  <textarea
+                  <Label htmlFor='message' text='Message' />
+                  <Input
                     name='message'
-                    rows='4'
-                    cols='80'
-                    className='border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full'
+                    type='textarea'
                     placeholder='Type a message...'
                   />
                 </div>
