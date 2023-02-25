@@ -4,19 +4,21 @@ import Input from '../../Atoms/Input'
 import Label from '../../Atoms/Label/Label'
 import Button from '../../Atoms/Button'
 
-//TODO: form Validation
 const ContactForm = ({ successToast, failToast }) => {
   const [fieldCompleted, setFieldCompleted] = useState({
     user_name: false,
     user_email: false,
     message: false,
   })
-
+  const [error, setError] = useState({
+    user_name: false,
+    user_email: false,
+    message: false,
+  })
   const formRef = useRef()
 
   const handleSubmit = e => {
     e.preventDefault()
-    //TODO: Export this function to utility file
     emailjs
       .sendForm(
         'service_nrcrtt7',
@@ -35,8 +37,8 @@ const ContactForm = ({ successToast, failToast }) => {
         })
       })
       .catch(error => {
-        setError(true)
         console.log(error)
+        failToast()
       })
   }
 
@@ -76,10 +78,10 @@ const ContactForm = ({ successToast, failToast }) => {
                 <p className='leading-relaxed mt-1 mb-4 text-gray-500'>
                   I'd love to hear from you.
                 </p>
-                {/* Input(+label) component here */}
                 <div className='relative w-full mb-3 mt-8'>
                   <Label htmlFor='user_name' text='Name' />
                   <Input
+                    hasError={error.user_name}
                     inputCompleted={e => handleInputCompleted(e)}
                     name='user_name'
                     placeholder='Full Name'
@@ -90,6 +92,7 @@ const ContactForm = ({ successToast, failToast }) => {
                   <Label htmlFor='user_email' text='Email' />
 
                   <Input
+                    hasError={error.user_email}
                     inputCompleted={e => handleInputCompleted(e)}
                     name='user_email'
                     type='email'
@@ -100,6 +103,7 @@ const ContactForm = ({ successToast, failToast }) => {
                 <div className='relative w-full mb-3'>
                   <Label htmlFor='message' text='Message' />
                   <Input
+                    hasError={error.message}
                     inputCompleted={e => handleInputCompleted(e)}
                     name='message'
                     type='textarea'

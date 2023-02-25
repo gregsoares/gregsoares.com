@@ -1,6 +1,11 @@
-import React from 'react'
-
-const Input = ({ name, placeholder, type = 'text', ref, inputCompleted }) => {
+const Input = ({
+  hasError,
+  name,
+  placeholder,
+  type = 'text',
+  ref,
+  inputCompleted,
+}) => {
   function isTextarea() {
     const inputType = type.toLowerCase()
     if (inputType === 'textarea') {
@@ -16,7 +21,9 @@ const Input = ({ name, placeholder, type = 'text', ref, inputCompleted }) => {
   }
   return isTextarea() ? (
     <textarea
-      className='border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
+      className={`border-0 px-3 py-3 placeholder-gray-300 text-gray-600 ${
+        hasError ? 'bg-red-400' : 'bg-white '
+      } rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150`}
       name={name}
       placeholder={placeholder}
       rows='5'
@@ -27,7 +34,9 @@ const Input = ({ name, placeholder, type = 'text', ref, inputCompleted }) => {
     />
   ) : (
     <input
-      className='border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150'
+      className={`border-0 px-3 py-3 placeholder-gray-300 text-gray-600 ${
+        hasError ? 'bg-red-400' : 'bg-white '
+      } rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150`}
       name={name}
       placeholder={placeholder}
       ref={ref}

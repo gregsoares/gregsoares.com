@@ -15,7 +15,17 @@ const formSentSuccessfully = () =>
     draggable: true,
     closeButton: true,
     theme: 'dark',
-    icon: false,
+    icon: true,
+  })
+
+const formFailedToSend = () =>
+  toast.error('Error Attempting To Send', {
+    position: 'top-center',
+    autoClose: 5000,
+    draggable: true,
+    closeButton: true,
+    theme: 'dark',
+    icon: true,
   })
 const Home = () => {
   return (
@@ -31,7 +41,10 @@ const Home = () => {
         <span>
           <ToastContainer autoClose={500} />
         </span>
-        <ContactForm successToast={() => formSentSuccessfully()} />
+        <ContactForm
+          successToast={() => formSentSuccessfully()}
+          failToast={() => formFailedToSend()}
+        />
       </main>
     </>
   )
