@@ -4,20 +4,18 @@ import Input from '../../Atoms/Input'
 import Label from '../../Atoms/Label/Label'
 import Button from '../../Atoms/Button'
 
-//TODO: Add "Message Sent" after successful message delivery
 //TODO: form Validation
-const ContactForm = () => {
+const ContactForm = ({ successToast, failToast }) => {
   const [fieldCompleted, setFieldCompleted] = useState({
     user_name: false,
     user_email: false,
     message: false,
   })
+
   const formRef = useRef()
 
   const handleSubmit = e => {
     e.preventDefault()
-    console.log(typeof formRef.current)
-    console.log(formRef.current)
     //TODO: Export this function to utility file
     emailjs
       .sendForm(
@@ -27,8 +25,14 @@ const ContactForm = () => {
         'G_7Uq3PGyX3qRNPFC'
       )
       .then(() => {
+        successToast()
         e.target.reset()
         error && setError(false)
+        setFieldCompleted({
+          user_name: false,
+          user_email: false,
+          message: false,
+        })
       })
       .catch(error => {
         setError(true)
@@ -46,15 +50,12 @@ const ContactForm = () => {
 
   function handleInputCompleted(e) {
     const { name, value } = e
-    console.log('handleInputCompleted:: \nname: %o\nvalue: %o', name, value)
 
     setFieldCompleted(fieldCompleted => ({
       ...fieldCompleted,
       [name]: value,
     }))
   }
-  console.log('form input states:\n %o', fieldCompleted)
-  console.log(isFormCompleted())
 
   return (
     <section
@@ -66,15 +67,14 @@ const ContactForm = () => {
         ref={formRef}
         onSubmit={e => handleSubmit(e)}
       >
+        <div></div>
         <div className='flex flex-wrap justify-center '>
           <div className='w-full lg:w-6/12 px-4'>
             <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200'>
               <div className='flex-auto p-5 lg:p-10'>
-                <h4 className='text-2xl font-semibold'>
-                  Want to work with us?
-                </h4>
+                <h4 className='text-2xl font-semibold'>Send a quick message</h4>
                 <p className='leading-relaxed mt-1 mb-4 text-gray-500'>
-                  Complete this form and we will get back to you in 24 hours.
+                  I'd love to hear from you.
                 </p>
                 {/* Input(+label) component here */}
                 <div className='relative w-full mb-3 mt-8'>

@@ -46,7 +46,6 @@ const About = () => {
     if (!inputData?.zip?.value) {
       inputData.zip.error = true
     }
-    console.log('updateDataList()::inputData: ', inputData)
     return inputData
   }
 
@@ -87,7 +86,6 @@ const About = () => {
     }
   }, [error])
 
-  console.log('error State: ', error)
   return (
     <div className='py-24 bg-slate-400 min-h-screen'>
       <section id='formSection'>
