@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import emailjs from '@emailjs/browser'
+import { sendEmail } from '../../../utility/email'
 import Input from '../../Atoms/Input'
 import Label from '../../Atoms/Label/Label'
 import Button from '../../Atoms/Button'
@@ -19,13 +19,7 @@ const ContactForm = ({ successToast, failToast }) => {
 
   const handleSubmit = e => {
     e.preventDefault()
-    emailjs
-      .sendForm(
-        'service_nrcrtt7',
-        'template_a004y3v',
-        formRef.current,
-        'G_7Uq3PGyX3qRNPFC'
-      )
+    sendEmail(formRef.current)
       .then(() => {
         successToast()
         e.target.reset()
@@ -69,7 +63,6 @@ const ContactForm = ({ successToast, failToast }) => {
         ref={formRef}
         onSubmit={e => handleSubmit(e)}
       >
-        <div></div>
         <div className='flex flex-wrap justify-center '>
           <div className='w-full lg:w-6/12 px-4'>
             <div className='relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200'>
