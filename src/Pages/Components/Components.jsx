@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
-import Button from '../../components/Atoms/Button'
-import Title from '../../components/Atoms/Title'
-import Text from '../../components/Atoms/Text'
+import Button from '../../components/Button'
+import Title from '../../components/Title'
+import Text from '../../components/Text'
 
 const isInRangeOf = (num, min, max) => num >= min && num <= max
 const Components = () => {

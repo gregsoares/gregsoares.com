@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
-    "build:deploy": "vite build --emptyOutDir && aws s3 sync build/ s3://www.gregsoares.com",
-    "preview": "vite preview",
-    "deploy": "aws s3 sync build/ s3://www.gregsoares.com"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

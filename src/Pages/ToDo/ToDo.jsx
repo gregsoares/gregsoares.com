@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import AddItem from '../../components/Molecules/AddItem'
-import ItemList from '../../components/organisms/ItemList'
+import AddItem from '../../components/AddItem'
+import ItemList from '../../components/ItemList'
 
 const ToDo = () => {
   const [items, setItems] = useState([])

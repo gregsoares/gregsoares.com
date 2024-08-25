@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TextInput from "../../Atoms/TextInput/TextInput";
-import Title from "../../Atoms/Title";
+import TextInput from "../TextInput/TextInput";
+import Title from "../Title";
 
 const AddItem = ({ handleAddItem }) => {
   const [item, setItem] = useState({

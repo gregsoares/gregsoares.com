@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react'
-import { sendEmail } from '../../../utility/email'
-import Input from '../../Atoms/Input'
-import Label from '../../Atoms/Label/Label'
-import Button from '../../Atoms/Button'
+import { sendEmail } from '../../utility/email'
+import Input from '../Input'
+import Label from '../Label/Label'
+import Button from '../Button'
 
 const ContactForm = ({ successToast, failToast }) => {
   const [fieldCompleted, setFieldCompleted] = useState({

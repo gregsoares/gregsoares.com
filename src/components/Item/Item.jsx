@@ -1,6 +1,6 @@
-import Title from "../../Atoms/Title";
-import Text from "../../Atoms/Text";
-import Button from "../../Atoms/Button";
+import Title from "../Title";
+import Text from "../Text";
+import Button from "../Button";
 
 const Item = ({ item, onClick, handleRemoveItem }) => {
   const { id, title, category, isActive } = item;

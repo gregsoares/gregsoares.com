@@ -1,4 +1,4 @@
-import Item from "../../Molecules/Item/Item";
+import Item from "../Item/Item";
 
 const ItemList = ({ items, onClick, handleRemoveItem }) => {
   return (
