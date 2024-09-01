@@ -11,6 +11,9 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
+      - name: 🛠️ Install scripts
+        run: npm install
+
       - name: 🛠️ Run build script
         run: npm run build
 
