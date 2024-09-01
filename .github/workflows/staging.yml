@@ -11,6 +11,12 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
+      - name: 🛠️ Install scripts
+        run: npm install
+
+      - name: 🛠️ Run build script
+        run: npm run build
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -18,3 +24,4 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server-dir: /staging.gregsoares.com/
+          local-dir: ./dist/
