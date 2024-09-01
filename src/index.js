@@ -1,6 +1,7 @@
-require('file-loader?name=[name].[ext]!./index.html');
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+const appContainer = document.getElementById('app');
+const rootComponent = createRoot(appContainer);
+rootComponent.render(<App />);
