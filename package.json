@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode production",
-    "dev": "webpack serve --mode development"
+    "dev": "webpack --mode development"
   },
   "keywords": [],
   "author": "Greg Soares",
