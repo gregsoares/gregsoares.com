@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, APITestButton, APITestOutput } from './styled';
 
 const baseURL =
-  process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : process.env.prodBaseAPIUrl;
+  process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : 'https://api.gregsoares.com';
 console.debug('Base URL :', baseURL);
 
 const API_Tester = () => {
