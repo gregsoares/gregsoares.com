@@ -12,6 +12,7 @@ const API_Tester = () => {
   const testAPI = async () => {
     try {
       const response = await fetch(`${baseURL}/test`, {
+        mode: 'no-cors', // Added to bypass CORS policy
         headers: {
           'x-access-token': '12345'
         }
