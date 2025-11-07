@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container, APITestButton, APITestOutput } from './styled';
 
-const baseURL =
-  process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : 'https://api.gregsoares.com';
-console.debug('Base URL :', baseURL);
+// const baseURL =
+//   process.env.NODE_ENV === 'development' ? 'http://localhost:8080' : 'https://api.gregsoares.com';
+// console.debug('Base URL :', baseURL);
+
+const baseURL = 'http://api.gregsoares.com';
 
 const API_Tester = () => {
   const [apiOutput, setApiOutput] = React.useState('');
@@ -18,11 +20,13 @@ const API_Tester = () => {
         }
       });
       const data = await response.json();
-      setApiOutput(data.message);
+      const responseMessage = data?.message ?? data;
+      console.debug('Response: ', data);
+      setApiOutput(responseMessage);
       setError(null);
     } catch (error) {
       console.error(error);
-      setError(error);
+      setError('API Error');
     }
   };
 
@@ -39,7 +43,7 @@ const API_Tester = () => {
       return;
     }
 
-    return <APITestOutput>Error: {error.data}</APITestOutput>;
+    return <APITestOutput>Error: {error}</APITestOutput>;
   };
 
   return (
