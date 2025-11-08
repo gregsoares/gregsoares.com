@@ -5,3 +5,4 @@ dist/
 .env
 
 server/node_modules/
+.vscode/

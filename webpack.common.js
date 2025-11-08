@@ -1,7 +1,12 @@
 const path = require('path');
 
+const envPort = process?.env?.PORT || 3000;
+
 module.exports = {
   entry: './src/index.js',
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'index.bundle.js'
@@ -11,7 +16,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist')
     },
     compress: true,
-    port: 3000,
+    port: envPort,
     hot: true
   },
   module: {
@@ -19,8 +24,15 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: { loader: 'babel-loader' },
-        exclude: /node_modules/
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', { useBuiltIns: 'usage', corejs: 3 }],
+              ['@babel/preset-react', { runtime: 'automatic' }]
+            ]
+          }
+        }
       },
       {
         test: /\.css$/,
