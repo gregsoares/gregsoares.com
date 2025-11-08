@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run build:tailwindCSS\" \"webpack serve --config webpack.prod.js\"",
-    "build": "webpack --config webpack.prod.js",
+    "build": "npm run build:tailwindCSS -- --minify && webpack --config webpack.prod.js",
     "dev": "concurrently \"npm run tailwindCSS:watch\" \"webpack serve --config webpack.dev.js\"",
     "tailwindCSS:watch": "npx tailwindcss -i ./src/assets/styles/tailwind.css -o ./dist/styles.css --watch",
     "build:tailwindCSS": "npx tailwindcss -i ./src/assets/styles/tailwind.css -o ./dist/styles.css"
