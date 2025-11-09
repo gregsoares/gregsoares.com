@@ -1,12 +1,12 @@
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-import Heroes from '../../components/Heroes'
-import CardSection from '../../components/Molecules/TopCardDisplay'
-import Intro from '../../components/Molecules/Intro'
-import BottomCardDisplay from '../../components/Molecules/BottomCardDisplay'
-import TrippleIconIntro from '../../components/Molecules/TrippleIconIntro/TrippleIconIntro'
-import ContactForm from '../../components/Molecules/ContactForm'
-import ImageRight from '../../components/organisms/ImageRight'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Heroes from '../../components/Heroes';
+import CardSection from '../../components/Molecules/TopCardDisplay';
+import Intro from '../../components/Molecules/Intro';
+import BottomCardDisplay from '../../components/Molecules/BottomCardDisplay';
+import TrippleIconIntro from '../../components/Molecules/TrippleIconIntro/TrippleIconIntro';
+import ContactForm from '../../components/Molecules/ContactForm';
+import ImageRight from '../../components/organisms/ImageRight';
 
 const formSentSuccessfully = () =>
   toast.success('Message Sent', {
@@ -15,8 +15,8 @@ const formSentSuccessfully = () =>
     draggable: true,
     closeButton: true,
     theme: 'dark',
-    icon: true,
-  })
+    icon: true
+  });
 
 const formFailedToSend = () =>
   toast.error('Error Attempting To Send', {
@@ -25,8 +25,8 @@ const formFailedToSend = () =>
     draggable: true,
     closeButton: true,
     theme: 'dark',
-    icon: true,
-  })
+    icon: true
+  });
 const Home = () => {
   return (
     <>
@@ -47,7 +47,7 @@ const Home = () => {
         />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
