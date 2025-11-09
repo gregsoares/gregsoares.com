@@ -1,11 +1,11 @@
 import React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TopNav from './components/Molecules/TopNav';
-// import Components from './Pages/Components';
-import Home from './Pages/Home/Home';
-// import ToDo from './Pages/ToDo/ToDo';
+// import Components from './pages/Components';
+import Home from './pages/Home/Home';
+// import ToDo from './pages/ToDo/ToDo';
 import Footer from './components/organisms/Footer/Footer';
-// import About from './Pages/About/About';
+// import About from './pages/About/About';
 
 const App = () => (
   <>
