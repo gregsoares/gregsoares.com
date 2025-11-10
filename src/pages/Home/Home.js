@@ -32,11 +32,11 @@ const Home = () => {
     <>
       <Intro />
       <CardSection />
-      {/* <ImageRight /> */}
-      {/* <ImageLeft /> */}
+      <ImageRight />
+      <ImageLeft />
 
-      {/* <Heroes /> */}
-      {/* <TrippleIconIntro /> */}
+      <Heroes />
+      <TrippleIconIntro />
       <span>
         <ToastContainer autoClose={500} />
       </span>
