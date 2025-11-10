@@ -61,11 +61,11 @@ const ContactForm = ({ successToast, failToast }) => {
             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-200">
               <div className="flex-auto p-5 lg:p-10">
                 <h4 className="text-2xl font-semibold">Send a quick message</h4>
-                <p className="leading-relaxed mt-1 mb-4 text-gray-500">
+                <p className="leading-relaxed mt-1 mb-4 text-gray-800">
                   I'd love to hear from you.
                 </p>
                 <div className="relative w-full mb-3 mt-8">
-                  <Label htmlFor="user_name" text="Name" />
+                  <Label htmlFor="user_name" text="Name:" />
                   <Input
                     hasError={error.user_name}
                     inputCompleted={(e) => handleInputCompleted(e)}
@@ -75,19 +75,19 @@ const ContactForm = ({ successToast, failToast }) => {
                 </div>
 
                 <div className="relative w-full mb-3">
-                  <Label htmlFor="user_email" text="Email" />
+                  <Label htmlFor="user_email" text="Your Email:" />
 
                   <Input
                     hasError={error.user_email}
                     inputCompleted={(e) => handleInputCompleted(e)}
                     name="user_email"
                     type="email"
-                    placeholder="Email"
+                    placeholder="Your Email"
                   />
                 </div>
 
                 <div className="relative w-full mb-3">
-                  <Label htmlFor="message" text="Message" />
+                  <Label htmlFor="message" text="Message:" />
                   <Input
                     hasError={error.message}
                     inputCompleted={(e) => handleInputCompleted(e)}

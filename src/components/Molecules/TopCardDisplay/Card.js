@@ -1,4 +1,5 @@
-const Card = ({ title, description, icon, iconBackgroundColor, keyIndex }) => {
+import { CardDescription } from './CardDescription';
+const Card = ({ title, description, icon, iconBackgroundColor, keyIndex, style }) => {
   return (
     title &&
     description && (
@@ -10,14 +11,10 @@ const Card = ({ title, description, icon, iconBackgroundColor, keyIndex }) => {
             >
               {icon && <i className={icon}></i>}
             </div>
-            <h6 className="text-lg font-semibold" id={`card-${keyIndex}-title`}>
+            <h6 className="text-xl font-semibold" id={`card-${keyIndex}-title`}>
               {title}
             </h6>
-            {description?.map((paragraph, index) => (
-              <p key={index} className="m-2 text-sm text-gray-500">
-                {paragraph}
-              </p>
-            ))}
+            <CardDescription description={description} style={style} />
           </div>
         </div>
       </div>
