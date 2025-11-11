@@ -1,14 +1,17 @@
 import List from '../List';
 const techLeadList = [
-  'Leading the technical design, implementation of new features and mentoring junior developers.',
-  'Responsible for selecting the appropriate tools, libraries, and managing technical debt.',
-  'Creating and enforcing technical standards, coding best practices and quality assurance processes',
-  'In Summary: Technical decision-making, code reviews, system design, hands-on coding'
+  'Lead the technical design and architecture for new components & features, making critical technical decisions and selecting appropriate tools/libraries to guide system implementation.',
+  'Establish and enforce technical standards, coding best practices, and quality assurance processes, driving comprehensive code reviews across the team.',
+  'Maintain active, hands-on contribution to the codebase while providing technical guidance and mentoring junior developers to elevate team skill and productivity.',
+  'Proactively manage and mitigate technical debt, ensuring the long-term maintainability, stability, and performance health for all Front-End applications of the platform.'
 ];
 
-const implementationSpecialistList = ['One', 'One', 'One', 'One'];
-
-const technicalProductOwnerList = ['One', 'Two', 'Three', 'Four'];
+const technicalProductOwnerList = [
+  'Aligning business and technical requirements, prioritizing & refining product backlog to maximize business value and ROI.',
+  'Technical liaison between stakeholders and engineering team, translating high-level business goals into actionable technical features and resolving implementation issues during planning and refinement.',
+  'Lead the Agile team and all Scrum ceremonies, driving effective sprint execution and protecting the team from scope creep to ensure consistent, timely delivery of product goals.',
+  'Propose optimal architecture based on technical analysis, making recommendations to optimize security and guide the team toward stable, long-term technical solutions while identifying risks.'
+];
 const TripleIconIntro = () => {
   return (
     <section className="pb-20 pt-20 relative block bg-gray-800">
