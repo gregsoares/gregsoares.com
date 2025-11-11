@@ -4,7 +4,7 @@ import Heroes from '../../components/Heroes';
 import CardSection from '../../components/TopCardDisplay';
 import Intro from '../../components/Intro';
 import ImageLeft from '../../components/ImageLeft';
-import TrippleIconIntro from '../../components/TrippleIconIntro/TrippleIconIntro';
+import TripleIconIntro from '../../components/TripleIconIntro';
 import ContactForm from '../../components/ContactForm';
 import ImageRight from '../../components/ImageRight';
 
@@ -32,11 +32,11 @@ const Home = () => {
     <>
       <Intro />
       <CardSection />
-      <ImageRight />
-      <ImageLeft />
+      {/* <ImageRight /> */}
+      {/* <ImageLeft /> */}
 
-      <Heroes />
-      <TrippleIconIntro />
+      <TripleIconIntro />
+      {/* <Heroes /> */}
       <span>
         <ToastContainer autoClose={500} />
       </span>

@@ -62,7 +62,6 @@ const Footer = () => {
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
-                    {/* Link */}
                     <Link to="/" text="Home" />
 
                     <Link
