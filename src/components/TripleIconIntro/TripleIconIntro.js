@@ -45,14 +45,14 @@ const TripleIconIntro = () => {
         <div className="flex flex-wrap mt-12 justify-center">
           <div className="w-full lg:w-6/12 text-center border-r-1 border-gray-500 border-solid pr-2 mr-4">
             <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-medal text-xl"></i>
+              <i className="fas fa-medal text-xl fill-blue-700" id="TechLeadList"></i>
             </div>
             <h6 className="text-xl mt-5 font-semibold text-white">Technical Lead</h6>
             <List items={techLeadList} />
           </div>
           <div className="w-full lg:w-5/12 px-4 text-center m-2">
             <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-lightbulb text-xl"></i>
+              <i className="fas fa-lightbulb text-xl" id="TPOList"></i>
             </div>
             <h5 className="text-xl mt-5 font-semibold text-white">Technical Product Owner</h5>
             <List items={technicalProductOwnerList} />
