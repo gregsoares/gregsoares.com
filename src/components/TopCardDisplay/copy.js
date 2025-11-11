@@ -16,6 +16,7 @@ export const cardData = [
     ]
   },
   {
+    cardIndex: 2,
     icon: 'fas fa-retweet',
     iconBackgroundColor: 'bg-teal-500',
     title: 'The Connection',

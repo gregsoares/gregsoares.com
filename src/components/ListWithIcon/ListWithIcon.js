@@ -12,26 +12,9 @@ const technicalProductOwnerList = [
   'Lead the Agile team and all Scrum ceremonies, driving effective sprint execution and protecting the team from scope creep to ensure consistent, timely delivery of product goals.',
   'Propose optimal architecture based on technical analysis, making recommendations to optimize security and guide the team toward stable, long-term technical solutions while identifying risks.'
 ];
-const TripleIconIntro = () => {
+const ListWithIcon = () => {
   return (
-    <section className="pb-20 pt-20 relative block bg-gray-800">
-      <div
-        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-        style={{ transform: 'translateZ(0)' }}
-      >
-        <svg
-          className="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon className=" fill-current" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-
+    <section className="pb-20 pt-20 relative block bg-gray-800" id="ListSection">
       <div className="container mx-auto lg:pt-24 lg:pb-64">
         <div className="flex flex-wrap text-center justify-center">
           <div className="w-full lg:w-5/12 px-4">
@@ -45,14 +28,14 @@ const TripleIconIntro = () => {
         <div className="flex flex-wrap mt-12 justify-center">
           <div className="w-full lg:w-6/12 text-center border-r-1 border-gray-500 border-solid pr-2 mr-4">
             <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-medal text-xl fill-blue-700" id="TechLeadList"></i>
+              <i className="fas fa-code text-xl fill-blue-700" id="TechLeadList"></i>
             </div>
             <h6 className="text-xl mt-5 font-semibold text-white">Technical Lead</h6>
             <List items={techLeadList} />
           </div>
           <div className="w-full lg:w-5/12 px-4 text-center m-2">
             <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-              <i className="fas fa-lightbulb text-xl" id="TPOList"></i>
+              <i className="fas fa-sitemap text-xl" id="TPOList"></i>
             </div>
             <h5 className="text-xl mt-5 font-semibold text-white">Technical Product Owner</h5>
             <List items={technicalProductOwnerList} />
@@ -63,4 +46,4 @@ const TripleIconIntro = () => {
   );
 };
 
-export default TripleIconIntro;
+export default ListWithIcon;
