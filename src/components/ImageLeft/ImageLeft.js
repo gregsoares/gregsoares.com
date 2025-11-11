@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BottomCardDisplay = () => {
+const ImageLeft = () => {
   return (
     <section className="relative py-24">
       <div
@@ -85,4 +85,4 @@ const BottomCardDisplay = () => {
   );
 };
 
-export default BottomCardDisplay;
+export default ImageLeft;

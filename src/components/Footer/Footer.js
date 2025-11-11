@@ -1,4 +1,4 @@
-import Link from '../../Atoms/Link/Link';
+import Link from '../Link';
 
 const Footer = () => {
   return (
@@ -62,7 +62,6 @@ const Footer = () => {
                     Useful Links
                   </span>
                   <ul className="list-unstyled">
-                    {/* Link */}
                     <Link to="/" text="Home" />
 
                     <Link
