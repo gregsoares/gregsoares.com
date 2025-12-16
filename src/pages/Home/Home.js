@@ -1,10 +1,9 @@
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Heroes from '../../components/Heroes';
-import CardSection from '../../components/TopCardDisplay';
 import Intro from '../../components/Intro';
 import ImageLeft from '../../components/ImageLeft';
-import TripleIconIntro from '../../components/TripleIconIntro';
+import ListWithIcon from '../../components/ListWithIcon';
 import ContactForm from '../../components/ContactForm';
 import ImageRight from '../../components/ImageRight';
 
@@ -31,11 +30,10 @@ const Home = () => {
   return (
     <>
       <Intro />
-      <CardSection />
-      {/* <ImageRight /> */}
+      <ListWithIcon />
       {/* <ImageLeft /> */}
+      {/* <ImageRight /> */}
 
-      <TripleIconIntro />
       {/* <Heroes /> */}
       <span>
         <ToastContainer autoClose={500} />

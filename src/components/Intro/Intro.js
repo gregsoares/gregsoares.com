@@ -1,9 +1,10 @@
 import React from 'react';
+import CardSection from '../TopCardDisplay/TopCardDisplay';
 
 const Intro = () => {
   return (
     <div
-      className="relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75"
+      className="relative z-0 lg:pt-16 pt-40  pb-32 content-center items-center justify-center min-h-screen-75"
       id="intro-container"
     >
       <div
@@ -33,22 +34,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div
-        className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-        style={{ transform: 'translateZ(0)' }}
-      >
-        <svg
-          className="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon className="text-gray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
+      <CardSection />
     </div>
   );
 };

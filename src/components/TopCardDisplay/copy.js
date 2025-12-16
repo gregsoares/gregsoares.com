@@ -1,6 +1,6 @@
 export const cardData = [
   {
-    icon: 'fas fa-award',
+    icon: 'fas fa-fingerprint',
     iconBackgroundColor: 'bg-blue-500',
     title: 'Love at First Struggle',
     description: [
@@ -10,12 +10,13 @@ export const cardData = [
       </>,
       <>
         This digital playground quickly pulled me into the world of scripting, networking, and
-        ethical hacking. Being self-taught meant I was constantly making—and, more often,
-        breaking—things, which forced me to learn and enjoy troubleshooting and debugging.
+        ethical hacking. Being self-taught meant I was constantly making — and, more often, breaking
+        — things, which forced me to learn and enjoy troubleshooting and debugging.
       </>
     ]
   },
   {
+    cardIndex: 2,
     icon: 'fas fa-retweet',
     iconBackgroundColor: 'bg-teal-500',
     title: 'The Connection',
@@ -36,14 +37,14 @@ export const cardData = [
     ]
   },
   {
-    icon: 'fas fa-fingerprint',
-    iconBackgroundColor: 'bg-yellow-500',
+    icon: 'fas fa-award',
+    iconBackgroundColor: 'bg-yellow-600',
     title: 'Never Stop Learning',
     style: 'ul',
     description: [
       <>
-        - <strong>Coding & Automation:</strong> I write efficient, scalable code to create solutions
-        and automate complex tasks.
+        - <strong>Coding & Web Development:</strong> SOLID Principles | SEO - Semantic HTML &
+        Performance | Improving Scalability, Reusability & Testability
       </>,
 
       <>
