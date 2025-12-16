@@ -36,7 +36,7 @@ const Home = () => {
       <ImageLeft />
       <ImageRight />
 
-      {/* <Heroes /> */}
+      <Heroes />
       <span>
         <ToastContainer autoClose={500} />
       </span>

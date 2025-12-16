@@ -30,7 +30,7 @@ const ListWithIcon = () => {
             <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <i className="fas fa-code text-xl fill-blue-700" id="TechLeadList"></i>
             </div>
-            <h6 className="text-xl mt-5 font-semibold text-white">Technical Lead</h6>
+            <h6 className="text-xl mt-5 font-semibold text-white">Senior Software Engineer</h6>
             <List items={techLeadList} />
           </div>
           <div className="w-full lg:w-5/12 px-4 text-center m-2">
