@@ -1,9 +1,10 @@
 import React from 'react';
+import CardSection from '../TopCardDisplay/TopCardDisplay';
 
 const Intro = () => {
   return (
     <div
-      className="relative z-0 lg:pt-16 pt-40  pb-32 flex content-center items-center justify-center min-h-screen-75"
+      className="relative z-0 lg:pt-16 pt-40  pb-32 content-center items-center justify-center min-h-screen-75"
       id="intro-container"
     >
       <div
@@ -33,6 +34,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
+      <CardSection />
     </div>
   );
 };

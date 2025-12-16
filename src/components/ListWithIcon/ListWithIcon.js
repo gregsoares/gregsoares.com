@@ -14,7 +14,7 @@ const technicalProductOwnerList = [
 ];
 const ListWithIcon = () => {
   return (
-    <section className="pb-20 pt-20 relative block bg-gray-800" id="ListSection">
+    <section className="pb-12 pt-12 relative block bg-gray-800" id="ListSection">
       <div className="container mx-auto lg:pt-24 lg:pb-64">
         <div className="flex flex-wrap text-center justify-center">
           <div className="w-full lg:w-5/12 px-4">

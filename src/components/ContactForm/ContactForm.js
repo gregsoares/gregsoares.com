@@ -54,7 +54,17 @@ const ContactForm = ({ successToast, failToast }) => {
   }
 
   return (
-    <section className="relative block py-24 bg-gray-800" id="contactFormContainer">
+    <section
+      className="relative block py-24 bg-left bg-cover"
+      style={{
+        backgroundImage: `url('https://plus.unsplash.com/premium_photo-1681487748082-839c7c0ee0c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`
+      }}
+      id="contactFormContainer"
+    >
+      <span
+        id="blackOverlay"
+        className="w-full h-full absolute top-0 opacity-75 bg-black block "
+      ></span>
       <form className="container mx-auto px-4" ref={formRef} onSubmit={(e) => handleSubmit(e)}>
         <div className="flex flex-wrap justify-center ">
           <div className="w-full lg:w-6/12 px-4">
